@@ -1,0 +1,82 @@
+[
+  {
+    "nome": "Chocolate ao Leite",
+    "valor": "7,00"
+  },
+  {
+    "nome": "Chocolate Meio Amargo",
+    "valor": "7,50"
+  },
+  {
+    "nome": "Chiclete",
+    "valor": "2,00"
+  },
+  {
+    "nome": "Trufa",
+    "valor": "5,00"
+  },
+  {
+    "nome": "Bala",
+    "valor": "0,25"
+  },
+  {
+    "nome": "Pirulito",
+    "valor": "1,00"
+  },
+  {
+    "nome": "Sobremesa Pudim",
+    "valor": "12,00"
+  },
+  {
+    "nome": "Molho Especial Extra",
+    "valor": "4,50"
+  },
+  {
+    "nome": "Borda Recheada",
+    "valor": "10,00"
+  },
+  {
+    "nome": "carne",
+    "valor": "3,00"
+  },
+  {
+    "nome": "AMENDOIM",
+    "valor": "6,00"
+  },
+  {
+    "nome": "HALLS",
+    "valor": "2,50"
+  },
+  {
+    "nome": "TRIDENT",
+    "valor": "2,50"
+  },
+  {
+    "nome": "BROWNIE",
+    "valor": "9,90"
+  },
+  {
+    "nome": "BATON",
+    "valor": "2,50"
+  },
+  {
+    "nome": "PRESTIGIO",
+    "valor": "4,00"
+  },
+  {
+    "nome": "CHARGE",
+    "valor": "4,00"
+  },
+  {
+    "nome": "KIT KAT",
+    "valor": "5,00"
+  },
+  {
+    "nome": "SONHO DE VALSA",
+    "valor": "3,00"
+  },
+  {
+    "nome": "CASADINHO",
+    "valor": "9,00"
+  }
+]

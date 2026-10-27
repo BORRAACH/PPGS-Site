@@ -1,0 +1,126 @@
+{
+  "bordas": [
+    {
+      "nome": "Borda Catupiry",
+      "valor": "10,00"
+    },
+    {
+      "nome": "Borda Cheddar",
+      "valor": "10,00"
+    },
+    {
+      "nome": "Borda Mussarela",
+      "valor": "18,00"
+    },
+    {
+      "nome": "Borda Chocolate",
+      "valor": "12,00"
+    }
+  ],
+  "adicionais": [
+    {
+      "nome": "Bacon",
+      "valor": "14,00",
+      "valorMetade": "8,00"
+    },
+    {
+      "nome": "Catupiry",
+      "valor": "8,00",
+      "valorMetade": "5,00"
+    },
+    {
+      "nome": "Cheddar",
+      "valor": "8,00",
+      "valorMetade": "5,00"
+    },
+    {
+      "nome": "Cebola",
+      "valor": "6,00",
+      "valorMetade": "4,00"
+    },
+    {
+      "nome": "Ovo",
+      "valor": "6,00",
+      "valorMetade": "4,00"
+    },
+    {
+      "nome": "Milho",
+      "valor": "10,00",
+      "valorMetade": "6,00"
+    },
+    {
+      "nome": "Azeitona",
+      "valor": "3,00"
+    },
+    {
+      "nome": "Champignon",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Tomate",
+      "valor": "6,00",
+      "valorMetade": "4,00"
+    },
+    {
+      "nome": "Alho",
+      "valor": "10,00",
+      "valorMetade": "6,00"
+    },
+    {
+      "nome": "Tomate seco",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Manjericão",
+      "valor": "6,00",
+      "valorMetade": "4,00"
+    },
+    {
+      "nome": "Lombo",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Peperoni",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Mussarela",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Parmesão",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Provolone",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Palmito",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Batata",
+      "valor": "10,00",
+      "valorMetade": "6,00"
+    },
+    {
+      "nome": "Calabresa",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    },
+    {
+      "nome": "Frango",
+      "valor": "16,00",
+      "valorMetade": "10,00"
+    }
+  ]
+}

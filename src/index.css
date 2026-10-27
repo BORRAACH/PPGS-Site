@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/* Paleta Forno (transcrita de pizzeria_system/qml/estilo/Colors.qml).
+   Só os passos usados aqui; o nome descreve a cor, o papel vem das classes. */
+@theme {
+  --font-display: "Caprasimo", system-ui, sans-serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+
+  --color-creme-50: #fffdf7;
+  --color-areia-100: #fdf5e6;
+  --color-areia-200: #f6e8d0;
+  --color-areia-300: #eadaba;
+  --color-taupe-400: #cbb595;
+  --color-umbre-600: #7a6549;
+  --color-umbre-700: #52432f;
+  --color-carvao-800: #33291f;
+  --color-carvao-900: #1b1611;
+
+  --color-ouro-100: #fdedc4;
+  --color-ouro-300: #f2c93b;
+  --color-ouro-700: #7d5615;
+
+  --color-terracota-50: #fff2e4;
+  --color-terracota-500: #bb3e00;
+  --color-terracota-600: #96320a;
+
+  --color-brasa-50: #fff0ec;
+  --color-brasa-500: #a80505;
+  --color-brasa-600: #8a0000;
+
+  --color-oliva-50: #f3f8ea;
+  --color-oliva-500: #4b7029;
+
+  --color-indigo-50: #ecf2f9;
+  --color-indigo-500: #2b5f96;
+
+  --color-uva-50: #f6eef8;
+  --color-uva-500: #7d3f95;
+
+  --animate-pop: pop 320ms ease-out;
+  @keyframes pop {
+    0% { transform: scale(1); }
+    40% { transform: scale(1.35); }
+    100% { transform: scale(1); }
+  }
+}
+
+@font-face {
+  font-family: "Caprasimo";
+  src: url("/fonts/Caprasimo-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("/fonts/Figtree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("/fonts/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("/fonts/Figtree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("/fonts/Figtree-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--color-areia-100);
+  color: var(--color-carvao-900);
+  font-family: var(--font-sans);
+}
+
+button,
+a,
+select,
+summary {
+  touch-action: manipulation;
+}
+
+/* Foco visível em qualquer fundo: anel escuro com halo claro. */
+:focus-visible {
+  outline: 3px solid var(--color-carvao-900);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--color-creme-50);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
